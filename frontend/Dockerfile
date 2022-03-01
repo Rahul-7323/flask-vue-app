@@ -1,5 +1,5 @@
 FROM node:lts-alpine
 WORKDIR /app
 COPY . .
-RUN npm install
-CMD ["npm","run","dev"]
+RUN yarn install
+CMD ["yarn","dev"]
